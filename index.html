@@ -56,6 +56,33 @@
         </div>
       </div>
     </div>
+    <!-- Modal -->
+    <div class="modal-container show-modal" id="modal">
+      <div class="modal">
+        <i
+          class="fa-regular fa-rectangle-xmark close-icon"
+          id="close-modal"
+        ></i>
+        <div class="modal-header">
+          <h3>Add Bookmark</h3>
+        </div>
+        <div class="modal-content">
+          <form id="bookmark-form">
+            <!-- Website Name -->
+            <div class="form-group">
+              <label for="website" class="form-label">Website Name</label>
+              <input type="text" class="form-input" id="website" />
+            </div>
+            <!-- Website URL -->
+            <div class="form-group">
+              <label for="website-url" class="form-label">Website URL</label>
+              <input type="text" class="form-input" id="website-url" />
+            </div>
+            <button type="submit">Save</button>
+          </form>
+        </div>
+      </div>
+    </div>
     <!-- Script -->
     <script src="script.js"></script>
   </body>
